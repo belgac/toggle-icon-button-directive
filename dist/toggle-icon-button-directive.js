@@ -38,5 +38,5 @@ function toggleIconButtonController () {
    setState();
  }
 };
-angular.module("toggleIconButton.template", []).run(["$templateCache", function($templateCache) {$templateCache.put("toggleIconButton.view.html","{{toggleIconButton}}\n<button ng-class=\"toggleIconButton.state.button\" ng-click=\"toggleIconButton.click()\"><i ng-class=\"toggleIconButton.state.icon\"></i> {{toggleIconButton.state.text}}</button>");}]);
+angular.module("toggleIconButton.template", []).run(["$templateCache", function($templateCache) {$templateCache.put("toggleIconButton.view.html","<button ng-class=\"toggleIconButton.state.button\" ng-click=\"toggleIconButton.click()\"><i ng-class=\"toggleIconButton.state.icon\"></i> {{toggleIconButton.state.text}}</button>");}]);
 //# sourceMappingURL=toggle-icon-button-directive.js.map
