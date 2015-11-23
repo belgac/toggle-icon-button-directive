@@ -1,0 +1,18 @@
+{
+  "name": "toggle-icon-button-directive",
+  "description": "A simple angularJS directive to create a toggle button with icon",
+  "main": "dist/toggle-icon-button-directive.min.js",
+  "authors": [
+    "Hans Scheuren <hans.scheuren@bizliner.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/belgac/toggle-icon-button-directive",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
